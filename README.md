@@ -63,8 +63,9 @@ POST /workouts/<workout_id>/exercises/<exercise_id>/workout_exercises
     }
   ]
 }
-### Screenshot
-![API Response Screenshot](api-response.png)
+## Screenshot
+![API Response Screenshot](./api-response.png)
+
 ### Technologies Used
  • Python
  • Flask
