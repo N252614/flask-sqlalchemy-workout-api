@@ -1,0 +1,18 @@
+# Python
+__pycache__/
+.pytest_cache/
+*.pyc
+
+# Flask / SQLAlchemy
+instance/
+server/instance/
+*.db
+
+# Migrations cache
+migrations/versions/__pycache__/
+
+# Environment
+.env
+
+# Editor
+.vscode/
