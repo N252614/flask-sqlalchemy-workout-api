@@ -64,6 +64,10 @@ POST /workouts/<workout_id>/exercises/<exercise_id>/workout_exercises
   ]
 }
 ## Screenshot
+
+Below is an example API response returned by the application
+when requesting a workout with exercises.
+
 ![API Response Screenshot](./api-response.png)
 
 ### Technologies Used
@@ -73,3 +77,9 @@ POST /workouts/<workout_id>/exercises/<exercise_id>/workout_exercises
  • Flask-Migrate
  • SQLite
  • Pipenv
+
+## Development Workflow
+
+This project was developed using a feature-branch workflow.
+All new changes were implemented in a separate branch and merged
+into the `main` branch via a pull request.
